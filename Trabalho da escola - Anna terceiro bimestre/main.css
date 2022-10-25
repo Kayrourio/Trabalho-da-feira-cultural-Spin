@@ -1,0 +1,138 @@
+html, body, h1{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+}
+section{
+    scroll-snap-align: start;
+    height: 851px;
+}
+footer{
+    height: 400px;
+}
+li {
+    list-style-type: none;
+  }
+#africa_images{
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+}
+.main_title{
+    font-size: 100px;
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+#introduction{
+    background-color: #f0f0f0;
+}
+.introduction_title{
+   font-size: 60px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+.introduction_text{
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 250px 10px 250px;
+}
+#africa_map{
+    background-color: blue;
+    height: 851px;
+}
+.africa_map_title{
+    width: 300px;
+    font-size: 60px;
+    position: relative;
+    top: 7%;
+    left: 7.2%;
+}
+.africa_map_explanation{
+    font-size: 18px;
+    width: 750px;
+    position: relative;
+    top: 60px;
+    left: 7.2%; 
+}
+.africa_map_interactive{
+    height: 70%;
+    width: 30%;
+    background-color: aqua;
+    position: relative;
+    top: -60px;
+    left: 60%;
+}
+.scientist_title::before{
+    font-size: 60px;
+    width: 800px;
+    position: relative;
+    top: 75px;
+    left: 7.2%; 
+    content: "Lorem lispsum";
+    animation: text infinite 5s;
+}
+@keyframes title{
+    0% {content:"Nome 1";}
+    25% {content:"Nome 2";}
+    50% {content:"Nome 3";}
+    75% {content:"Nome 4";}
+  }
+.scientist_text::before{
+    font-size: 18px;
+    width: 750px;
+    position: relative;
+    top: 90px;
+    left: 7.2%; 
+    margin: 0px 100px 0px 0px;
+    color: black;
+    content: "Lorem lispsum";
+    animation: text infinite 5s;
+}
+@keyframes text{
+    0% {content:"Lorem lispsum";}
+    25% {content:"Papapa";}
+    50% {content:"UEpaa";}
+    75% {content:"olaa";}
+  }
+.scientist_photos{
+    height: 70%;
+    width: 34%;
+    background-color: blue;
+    position: relative;
+    top: -25px;
+    left: 58%;
+    animation: photos infinite 5s;
+}
+@keyframes photos{
+    0% {background-color: blue;}
+    25% {background-color: red;}
+    50% {background-color: green; }
+    75% {background-color: yellow;}
+}
+.footer_styling{
+    background-color: #1c1a1a;
+    color: white;
+}
+.footer_information_title{
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px 230px 0px 0px;
+}
+.footer_information{
+    font-size: 20px;
+    margin: 0px 230px 0px 0px;
+}
+.footer_students_information_title{
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px 0px 0px 0px;
+}
+.footer_students_information{
+    font-size: 20px;;
+}
